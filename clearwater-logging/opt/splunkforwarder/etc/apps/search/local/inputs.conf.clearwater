@@ -1,0 +1,14 @@
+[monitor:///var/log/nagios3/nagios.log]
+disabled = false
+sourcetype = nagios
+index = nagios
+
+[monitor:///var/log/nagios3/host-perfdata]
+disabled = false
+sourcetype = nagioshostperf
+index = nagios
+
+[monitor:///var/log/nagios3/service-perfdata]
+disabled = false
+sourcetype = nagiosserviceperf
+index = nagios
