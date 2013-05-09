@@ -1,4 +1,4 @@
-Clearwater Logging Infrastrure
+Clearwater Logging Infrastructure
 ==============================
 
 This repository contains a package (clearwater-logging) for integrating Clearwater's logging with [Splunk](http://www.splunk.com/).
