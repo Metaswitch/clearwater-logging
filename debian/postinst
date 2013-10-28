@@ -70,7 +70,7 @@ case "$1" in
         chown nagios.nagios /var/log/nagios3/host-perfdata /var/log/nagios3/service-perfdata
         /etc/init.d/nagios3 restart
         add_section /opt/splunkforwarder/etc/apps/search/local/inputs.conf clearwater-logging /opt/splunkforwarder/etc/apps/search/local/inputs.conf.clearwater
-        /etc/clearwater/scripts/clearwater-logging
+        /usr/share/clearwater/infrastructure/scripts/clearwater-logging
         /opt/splunkforwarder/bin/splunk start --accept-license
         /opt/splunkforwarder/bin/splunk enable boot-start
         /usr/share/clearwater/bin/clearwater-logging-update
